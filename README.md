@@ -1,6 +1,7 @@
 # lungSegmentation
 Code for lung segmentation. Training with Unet on the Montgomery County X-ray Set and Shenzhen datasets.
-Download datasets from https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels. 
+Download datasets from https://www.kaggle.com/datasets/nikhilpandey360/chest-xray-masks-and-labels.
+```bash
 Project structure:
 |   .gitignore
 |   dataloader_func.py
@@ -24,3 +25,4 @@ Project structure:
 |       test_index.csv
 |       train_index.csv
 |       val_index.csv
+```
