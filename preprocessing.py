@@ -6,7 +6,7 @@ import albumentations as A
 from torch.utils.data import DataLoader
 from albumentations.pytorch import ToTensorV2
 
-def create_dataloader(height=640, width=640, batch_size=2):
+def create_dataloader(height=640, width=640, batch_size=4):
 
     if 'index_split' not in os.listdir():
         df_segmentation = dl.get_df()
@@ -41,8 +41,8 @@ def create_dataloader(height=640, width=640, batch_size=2):
 
     train_ds, val_ds, tset_ds = dl.create_dataset(df_train, df_val, df_test, transform_train, transform_filter, transform_val)
 
-    train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True, num_workers=2)
-    val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False, num_workers=2)
-    test_loader = DataLoader(tset_ds, batch_size=batch_size, shuffle=False, num_workers=2)
+    train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True, num_workers=4)
+    val_loader = DataLoader(val_ds, batch_size=batch_size, shuffle=False, num_workers=4)
+    test_loader = DataLoader(tset_ds, batch_size=batch_size, shuffle=False, num_workers=4)
 
     return train_loader, val_loader, test_loader
