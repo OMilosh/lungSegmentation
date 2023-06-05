@@ -15,8 +15,8 @@ def get_df(dir_name = "archive/Lung Segmentation"):
     df_segmentation = pd.DataFrame()
     df_segmentation["image"], df_segmentation["mask"] = lst_name_masks, lst_masks
 
-    df_segmentation["image"] = [f'{dir_name}/CXR_png/{img}.png' for img in df_segmentation["image"].values]
-    df_segmentation["mask"] = [f'{dir_name}/masks/{mask}' for mask in df_segmentation["mask"].values]
+    df_segmentation["image"] = [f'{img}.png' for img in df_segmentation["image"].values]
+    df_segmentation["mask"] = [f'{mask}' for mask in df_segmentation["mask"].values]
     return df_segmentation
 
 
@@ -25,20 +25,21 @@ class LungsDataset(Dataset):
     def __init__(self, df, transform, transform_filter, ismask = True):
         
         self.df = df
+        self.ismask = ismask
         self.img_path = df["image"].values
-        self.mask_path = df["mask"].values
+        if self.ismask: self.mask_path = df["mask"].values
         self.transform = transform
         self.transform_filter =  transform_filter
-        self.ismask = ismask
+        
 
     def __getitem__(self, idx):
 
-        img = cv2.imread(self.img_path[idx], cv2.IMREAD_GRAYSCALE)
+        img = cv2.imread("archive/Lung Segmentation/CXR_png/" + self.img_path[idx], cv2.IMREAD_GRAYSCALE)
         
         if self.ismask is True:
 
             img = self.transform_filter(image=img)["image"]
-            mask = cv2.imread(self.mask_path[idx], cv2.IMREAD_GRAYSCALE)
+            mask = cv2.imread("archive/Lung Segmentation/masks/" + self.mask_path[idx], cv2.IMREAD_GRAYSCALE)
             mask = np.clip(mask, 0, 1).astype("float32")
 
             augmented = self.transform(image=img, mask=mask)

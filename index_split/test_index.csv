@@ -1,72 +1,72 @@
 image,mask
-archive/Lung Segmentation/CXR_png/CHNCXR_0641_1.png,archive/Lung Segmentation/masks/CHNCXR_0641_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0078_0.png,archive/Lung Segmentation/masks/CHNCXR_0078_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0477_1.png,archive/Lung Segmentation/masks/CHNCXR_0477_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0282_0.png,archive/Lung Segmentation/masks/CHNCXR_0282_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0004_0.png,archive/Lung Segmentation/masks/MCUCXR_0004_0.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0304_0.png,archive/Lung Segmentation/masks/CHNCXR_0304_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0084_0.png,archive/Lung Segmentation/masks/CHNCXR_0084_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0612_1.png,archive/Lung Segmentation/masks/CHNCXR_0612_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0576_1.png,archive/Lung Segmentation/masks/CHNCXR_0576_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0464_1.png,archive/Lung Segmentation/masks/CHNCXR_0464_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0086_0.png,archive/Lung Segmentation/masks/CHNCXR_0086_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0644_1.png,archive/Lung Segmentation/masks/CHNCXR_0644_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0139_0.png,archive/Lung Segmentation/masks/CHNCXR_0139_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0283_0.png,archive/Lung Segmentation/masks/CHNCXR_0283_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0260_0.png,archive/Lung Segmentation/masks/CHNCXR_0260_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0591_1.png,archive/Lung Segmentation/masks/CHNCXR_0591_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0515_1.png,archive/Lung Segmentation/masks/CHNCXR_0515_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0116_0.png,archive/Lung Segmentation/masks/CHNCXR_0116_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0173_0.png,archive/Lung Segmentation/masks/CHNCXR_0173_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0073_0.png,archive/Lung Segmentation/masks/CHNCXR_0073_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0372_1.png,archive/Lung Segmentation/masks/MCUCXR_0372_1.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0109_0.png,archive/Lung Segmentation/masks/CHNCXR_0109_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0383_1.png,archive/Lung Segmentation/masks/CHNCXR_0383_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0172_0.png,archive/Lung Segmentation/masks/CHNCXR_0172_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0173_1.png,archive/Lung Segmentation/masks/MCUCXR_0173_1.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0387_1.png,archive/Lung Segmentation/masks/CHNCXR_0387_1_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0162_1.png,archive/Lung Segmentation/masks/MCUCXR_0162_1.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0375_1.png,archive/Lung Segmentation/masks/CHNCXR_0375_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0478_1.png,archive/Lung Segmentation/masks/CHNCXR_0478_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0259_0.png,archive/Lung Segmentation/masks/CHNCXR_0259_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0141_0.png,archive/Lung Segmentation/masks/CHNCXR_0141_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0247_0.png,archive/Lung Segmentation/masks/CHNCXR_0247_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0166_0.png,archive/Lung Segmentation/masks/CHNCXR_0166_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0636_1.png,archive/Lung Segmentation/masks/CHNCXR_0636_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0092_0.png,archive/Lung Segmentation/masks/CHNCXR_0092_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0407_1.png,archive/Lung Segmentation/masks/CHNCXR_0407_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0144_0.png,archive/Lung Segmentation/masks/CHNCXR_0144_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0003_0.png,archive/Lung Segmentation/masks/CHNCXR_0003_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0305_0.png,archive/Lung Segmentation/masks/CHNCXR_0305_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0316_1.png,archive/Lung Segmentation/masks/MCUCXR_0316_1.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0365_1.png,archive/Lung Segmentation/masks/CHNCXR_0365_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0508_1.png,archive/Lung Segmentation/masks/CHNCXR_0508_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0462_1.png,archive/Lung Segmentation/masks/CHNCXR_0462_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0222_0.png,archive/Lung Segmentation/masks/CHNCXR_0222_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0105_0.png,archive/Lung Segmentation/masks/CHNCXR_0105_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0275_0.png,archive/Lung Segmentation/masks/CHNCXR_0275_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0618_1.png,archive/Lung Segmentation/masks/CHNCXR_0618_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0153_0.png,archive/Lung Segmentation/masks/CHNCXR_0153_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0603_1.png,archive/Lung Segmentation/masks/CHNCXR_0603_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0240_0.png,archive/Lung Segmentation/masks/CHNCXR_0240_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0126_0.png,archive/Lung Segmentation/masks/CHNCXR_0126_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0309_1.png,archive/Lung Segmentation/masks/MCUCXR_0309_1.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0230_0.png,archive/Lung Segmentation/masks/CHNCXR_0230_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0446_1.png,archive/Lung Segmentation/masks/CHNCXR_0446_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0400_1.png,archive/Lung Segmentation/masks/CHNCXR_0400_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0268_0.png,archive/Lung Segmentation/masks/CHNCXR_0268_0_mask.png
-archive/Lung Segmentation/CXR_png/MCUCXR_0080_0.png,archive/Lung Segmentation/masks/MCUCXR_0080_0.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0296_0.png,archive/Lung Segmentation/masks/CHNCXR_0296_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0071_0.png,archive/Lung Segmentation/masks/CHNCXR_0071_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0307_0.png,archive/Lung Segmentation/masks/CHNCXR_0307_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0438_1.png,archive/Lung Segmentation/masks/CHNCXR_0438_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0098_0.png,archive/Lung Segmentation/masks/CHNCXR_0098_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0128_0.png,archive/Lung Segmentation/masks/CHNCXR_0128_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0609_1.png,archive/Lung Segmentation/masks/CHNCXR_0609_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0062_0.png,archive/Lung Segmentation/masks/CHNCXR_0062_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0056_0.png,archive/Lung Segmentation/masks/CHNCXR_0056_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0430_1.png,archive/Lung Segmentation/masks/CHNCXR_0430_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0094_0.png,archive/Lung Segmentation/masks/CHNCXR_0094_0_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0388_1.png,archive/Lung Segmentation/masks/CHNCXR_0388_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0611_1.png,archive/Lung Segmentation/masks/CHNCXR_0611_1_mask.png
-archive/Lung Segmentation/CXR_png/CHNCXR_0325_0.png,archive/Lung Segmentation/masks/CHNCXR_0325_0_mask.png
+CHNCXR_0427_1.png,CHNCXR_0427_1_mask.png
+MCUCXR_0069_0.png,MCUCXR_0069_0.png
+CHNCXR_0178_0.png,CHNCXR_0178_0_mask.png
+CHNCXR_0567_1.png,CHNCXR_0567_1_mask.png
+CHNCXR_0058_0.png,CHNCXR_0058_0_mask.png
+CHNCXR_0064_0.png,CHNCXR_0064_0_mask.png
+CHNCXR_0622_1.png,CHNCXR_0622_1_mask.png
+CHNCXR_0051_0.png,CHNCXR_0051_0_mask.png
+MCUCXR_0081_0.png,MCUCXR_0081_0.png
+CHNCXR_0271_0.png,CHNCXR_0271_0_mask.png
+CHNCXR_0523_1.png,CHNCXR_0523_1_mask.png
+CHNCXR_0016_0.png,CHNCXR_0016_0_mask.png
+CHNCXR_0504_1.png,CHNCXR_0504_1_mask.png
+CHNCXR_0337_1.png,CHNCXR_0337_1_mask.png
+MCUCXR_0035_0.png,MCUCXR_0035_0.png
+CHNCXR_0413_1.png,CHNCXR_0413_1_mask.png
+CHNCXR_0640_1.png,CHNCXR_0640_1_mask.png
+CHNCXR_0150_0.png,CHNCXR_0150_0_mask.png
+CHNCXR_0278_0.png,CHNCXR_0278_0_mask.png
+CHNCXR_0442_1.png,CHNCXR_0442_1_mask.png
+CHNCXR_0375_1.png,CHNCXR_0375_1_mask.png
+MCUCXR_0334_1.png,MCUCXR_0334_1.png
+CHNCXR_0055_0.png,CHNCXR_0055_0_mask.png
+CHNCXR_0391_1.png,CHNCXR_0391_1_mask.png
+CHNCXR_0275_0.png,CHNCXR_0275_0_mask.png
+CHNCXR_0606_1.png,CHNCXR_0606_1_mask.png
+CHNCXR_0535_1.png,CHNCXR_0535_1_mask.png
+CHNCXR_0335_1.png,CHNCXR_0335_1_mask.png
+CHNCXR_0070_0.png,CHNCXR_0070_0_mask.png
+CHNCXR_0004_0.png,CHNCXR_0004_0_mask.png
+CHNCXR_0260_0.png,CHNCXR_0260_0_mask.png
+CHNCXR_0643_1.png,CHNCXR_0643_1_mask.png
+CHNCXR_0308_0.png,CHNCXR_0308_0_mask.png
+CHNCXR_0123_0.png,CHNCXR_0123_0_mask.png
+CHNCXR_0229_0.png,CHNCXR_0229_0_mask.png
+CHNCXR_0559_1.png,CHNCXR_0559_1_mask.png
+CHNCXR_0370_1.png,CHNCXR_0370_1_mask.png
+CHNCXR_0383_1.png,CHNCXR_0383_1_mask.png
+CHNCXR_0402_1.png,CHNCXR_0402_1_mask.png
+CHNCXR_0473_1.png,CHNCXR_0473_1_mask.png
+CHNCXR_0114_0.png,CHNCXR_0114_0_mask.png
+MCUCXR_0255_1.png,MCUCXR_0255_1.png
+CHNCXR_0615_1.png,CHNCXR_0615_1_mask.png
+CHNCXR_0236_0.png,CHNCXR_0236_0_mask.png
+MCUCXR_0015_0.png,MCUCXR_0015_0.png
+CHNCXR_0398_1.png,CHNCXR_0398_1_mask.png
+CHNCXR_0651_1.png,CHNCXR_0651_1_mask.png
+MCUCXR_0083_0.png,MCUCXR_0083_0.png
+CHNCXR_0470_1.png,CHNCXR_0470_1_mask.png
+CHNCXR_0417_1.png,CHNCXR_0417_1_mask.png
+CHNCXR_0080_0.png,CHNCXR_0080_0_mask.png
+CHNCXR_0083_0.png,CHNCXR_0083_0_mask.png
+MCUCXR_0003_0.png,MCUCXR_0003_0.png
+MCUCXR_0006_0.png,MCUCXR_0006_0.png
+MCUCXR_0362_1.png,MCUCXR_0362_1.png
+CHNCXR_0468_1.png,CHNCXR_0468_1_mask.png
+CHNCXR_0472_1.png,CHNCXR_0472_1_mask.png
+CHNCXR_0069_0.png,CHNCXR_0069_0_mask.png
+CHNCXR_0259_0.png,CHNCXR_0259_0_mask.png
+MCUCXR_0266_1.png,MCUCXR_0266_1.png
+CHNCXR_0165_0.png,CHNCXR_0165_0_mask.png
+CHNCXR_0132_0.png,CHNCXR_0132_0_mask.png
+CHNCXR_0474_1.png,CHNCXR_0474_1_mask.png
+MCUCXR_0195_1.png,MCUCXR_0195_1.png
+MCUCXR_0150_1.png,MCUCXR_0150_1.png
+CHNCXR_0243_0.png,CHNCXR_0243_0_mask.png
+CHNCXR_0041_0.png,CHNCXR_0041_0_mask.png
+CHNCXR_0134_0.png,CHNCXR_0134_0_mask.png
+CHNCXR_0637_1.png,CHNCXR_0637_1_mask.png
+CHNCXR_0063_0.png,CHNCXR_0063_0_mask.png
+CHNCXR_0463_1.png,CHNCXR_0463_1_mask.png
