@@ -26,3 +26,4 @@ Project structure:
 |       train_index.csv
 |       val_index.csv
 ```
+![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/0eac5c9b-a7c1-4691-bed3-3c46c3ba1302)
