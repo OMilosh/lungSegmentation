@@ -29,4 +29,4 @@ Project structure:
 ## U-net result:
 ![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/b972b941-4c57-480e-836d-2dcda9b26e37)
 ## Final CXR: post-processing includes finding the contours of the lungs to correct "holes" and "extra details" in the resulting masks. 
-![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/29672054-12cc-45a2-b45e-e60f7314a549)
+![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/da038967-e892-4f1f-a099-e525f70e56f2)
