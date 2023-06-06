@@ -26,4 +26,7 @@ Project structure:
 |       train_index.csv
 |       val_index.csv
 ```
-![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/d6dc5fb4-0c54-4b37-9e99-b1e200178f54)
+## U-net result:
+![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/b972b941-4c57-480e-836d-2dcda9b26e37)
+## Final CXR: post-processing includes finding the contours of the lungs to correct "holes" and "extra details" in the resulting masks. 
+![image](https://github.com/OMilosh/lungSegmentation/assets/83598973/29672054-12cc-45a2-b45e-e60f7314a549)
