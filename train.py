@@ -1,6 +1,7 @@
 import json
 from tqdm import tqdm
 import torch
+from dataloader_func import set_random_seed
 from preprocessing import create_dataloader
 from segmentation_models_pytorch import Unet
 from val_func import DiceLoss
@@ -25,8 +26,6 @@ def train(model, criterion, optimizer, dict_plot, device = 'cpu', epoch=None):
             loss = criterion(output, masks_batch.unsqueeze(1).to(device))
             val_loss += loss.item()
 
-    # dict_plot['train_ji'].append(measure_metric_on_loader(model, train_loader, device))
-    # dict_plot['val_ji'].append(measure_metric_on_loader(model, val_loader, device))
     dict_plot['train_loss'].append(ep_loss / len(train_loader))
     dict_plot['val_loss'].append(val_loss / len(val_loader))
 
@@ -42,14 +41,12 @@ if __name__ == '__main__':
     
     criterion = DiceLoss()
     unet.to(device)
-    optimizer = torch.optim.AdamW(unet.parameters(), lr=0.01)
+    optimizer = torch.optim.AdamW(unet.parameters(), lr=0.001)
     dict_plot = {name: [] for name in ['train_loss', 'val_loss']}
 
-
+    set_random_seed(42)
     for epoch in tqdm(range(40)):
         train(unet, criterion, optimizer, dict_plot, device, epoch)
-        if epoch == 15:
-            optimizer = torch.optim.AdamW(unet.parameters(), lr=0.001)
 
     dict_loss_json = json.dumps(dict_plot)
 

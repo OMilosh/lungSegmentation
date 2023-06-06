@@ -1,5 +1,7 @@
 import os
 import cv2
+import torch
+import random
 import pickle
 import numpy as np
 import pandas as pd
@@ -94,4 +96,11 @@ def create_dataset(df_train, df_val, df_test, transform_train, transform_filter,
     test_dataset = LungsDataset(df_test, transform=transform_val, transform_filter = transform_filter)
 
     return train_dataset, val_dataset, test_dataset
+
+def set_random_seed(seed):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.deterministic = True
 

@@ -14,8 +14,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     unet.to(device)
     
-    # print(f"Jaccard index on test: {measure_metric_on_loader(unet, test_loader, device):.2f}")
-    torch.cuda.empty_cache()
+    print(f"Jaccard index on test: {measure_metric_on_loader(unet, test_loader, device):.2f}")
 
     show_pic_with_mask(unet, test_loader,device)
     

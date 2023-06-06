@@ -51,7 +51,7 @@ def get_segmented_lungs(dataloader, path_to_save = 'masks', height=640, width=64
 
 if __name__ == "__main__":
    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-   df_test = pd.read_csv("index_split/test_index.csv")
+   df_test = pd.read_csv("index_split/val_index.csv")
    
    transform_val = A.Compose(
       [A.Resize(height = 640, width = 640),
@@ -73,9 +73,9 @@ if __name__ == "__main__":
    unet.to(device)
    unet.eval()
    
-#    get_segmented_lungs(loader)  
+   get_segmented_lungs(loader)  
 
-   lungs_final = torch.load(f"masks/{df_test.iloc[0][0].split('.')[0]}.pt") * std_set + mean_set
+   lungs_final = torch.load(f"masks/{df_test.iloc[29][0].split('.')[0]}.pt") * std_set + mean_set
    save_image(lungs_final, "lungs_final.png")
          
 
